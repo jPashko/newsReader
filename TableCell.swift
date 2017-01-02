@@ -10,6 +10,8 @@ import UIKit
 
 class TableCell: UITableViewCell {
     
+    var work: String?
+    
     @IBOutlet weak var imgView: UIImageView!
     
     @IBOutlet weak var title: UILabel!

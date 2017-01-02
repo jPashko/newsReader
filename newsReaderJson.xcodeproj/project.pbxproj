@@ -18,6 +18,7 @@
 		4291750F1DF828550012D740 /* MenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4291750E1DF828550012D740 /* MenuManager.swift */; };
 		429175111DF8356B0012D740 /* BaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 429175101DF8356B0012D740 /* BaseCell.xib */; };
 		429175131DF8386F0012D740 /* BaseViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429175121DF8386F0012D740 /* BaseViewCell.swift */; };
+		42D302281E1ADC3900B3B321 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42D302271E1ADC3900B3B321 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		4291750E1DF828550012D740 /* MenuManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuManager.swift; sourceTree = "<group>"; };
 		429175101DF8356B0012D740 /* BaseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseCell.xib; sourceTree = "<group>"; };
 		429175121DF8386F0012D740 /* BaseViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewCell.swift; sourceTree = "<group>"; };
+		42D302271E1ADC3900B3B321 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		421334121DF5C5980071EDD6 = {
 			isa = PBXGroup;
 			children = (
+				42D302271E1ADC3900B3B321 /* Default-568h@2x.png */,
 				4213341D1DF5C5980071EDD6 /* newsReaderJson */,
 				4213341C1DF5C5980071EDD6 /* Products */,
 			);
@@ -109,11 +112,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Yulia Pashko";
 				TargetAttributes = {
 					4213341A1DF5C5980071EDD6 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GGR5Z22QYY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -144,6 +148,7 @@
 				429175111DF8356B0012D740 /* BaseCell.xib in Resources */,
 				421334291DF5C5980071EDD6 /* LaunchScreen.storyboard in Resources */,
 				421334261DF5C5980071EDD6 /* Assets.xcassets in Resources */,
+				42D302281E1ADC3900B3B321 /* Default-568h@2x.png in Resources */,
 				421334241DF5C5980071EDD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +210,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -255,6 +261,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -284,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GGR5Z22QYY;
 				INFOPLIST_FILE = newsReaderJson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuliapashko.newsReaderJson;
@@ -296,6 +304,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GGR5Z22QYY;
 				INFOPLIST_FILE = newsReaderJson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuliapashko.newsReaderJson;
